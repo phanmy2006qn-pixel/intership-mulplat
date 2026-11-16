@@ -109,8 +109,7 @@ a:active.link-heading {
     font-weight: 700;
     color: #111;
     line-height: 1.35;
-    margin-bottom: 6px;
-
+    margin-bottom: 6px; 
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -130,9 +129,7 @@ a:active.link-heading {
     max-width: 1400px;
 
 }
-
-
-
+ 
 #myCarousel {
     --f-carousel-slide-width: 33.33%;
     --f-carousel-gap: 10px;
