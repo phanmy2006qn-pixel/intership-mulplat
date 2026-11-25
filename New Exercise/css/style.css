@@ -16,6 +16,10 @@ img {
     max-width: 100%;
 }
 
+.wrap{
+    padding: 30px 0px;
+}
+
 .list-menu {
     margin: auto;
     justify-content: center;
@@ -83,15 +87,13 @@ img {
 .style-slide {
     background-color: #eeeef5;
     border-radius: 20px;
+    padding: 40px;
 }
 
 .heading-title {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 30px;
+    display: flex;  
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .btn-icon {
@@ -122,9 +124,7 @@ img {
 .f-desc,
 .f-item,
 .f-body {
-    --f-carousel-item: 4;
-    padding: 100px 30px 30px 30px;
-    background-color: none;
+    --f-carousel-item: 4;  
     border-radius: 20px;
 }
 
@@ -171,6 +171,10 @@ img {
 
 }
 
+.card-news{
+    height: 100%;
+}
+
 .title-news {
     padding: 30px;
 }
@@ -190,8 +194,7 @@ img {
 }
 
 .f-footer {
-    --f-carousel-item: 6;
-    padding: 100px 30px 30px 30px;
+    --f-carousel-item: 6; 
     background-color: none;
     border-radius: 20px;
 }
