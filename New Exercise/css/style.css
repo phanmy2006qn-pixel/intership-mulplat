@@ -2,8 +2,23 @@
     box-sizing: border-box;
 }
 
+header {
+    position: sticky;
+    background-color: white !important;
+    display: block;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+
+}
+
 img {
     max-width: 100%;
+}
+
+.list-menu {
+    margin: auto;
+    justify-content: center;
 }
 
 .info {
@@ -20,11 +35,25 @@ img {
     margin-bottom: 0;
 }
 
+.nav-item {
+    font-weight: bold;
+}
+
+.dropdown-toggle {
+    color: black;
+}
+
 .feature-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 50px;
+}
+
+.btn-primary-header-left {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
 }
 
 .banner-item {
@@ -36,6 +65,7 @@ img {
     width: 100%;
     height: auto;
     border-radius: 15px;
+    border: 1px solid gainsboro;
 }
 
 .f-carousel {
@@ -48,9 +78,9 @@ img {
     --f-carousel-item: 1;
 }
 
-.f-product {
-    --f-carousel-item: 4;
-    padding: 100px 30px;
+
+
+.style-slide {
     background-color: #eeeef5;
     border-radius: 20px;
 }
@@ -65,21 +95,172 @@ img {
 }
 
 .btn-icon {
-    display: flex;
+    display: inline-flex;
     position: absolute;
     top: 0;
     right: 0;
-    padding: 30px;
+    margin: 30px;
+    align-items: center;
+    border: 2px solid rgb(27, 27, 117);
+    color: rgb(27, 27, 117);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
 
+    text-transform: uppercase;
+}
+
+.fa-angle-right {
+    padding-left: 5px;
 }
 
 .product-banner {
     justify-content: space-between;
 }
 
-.f-desc {
+.f-product,
+.f-desc,
+.f-item,
+.f-body {
     --f-carousel-item: 4;
-     padding: 100px 30px;
+    padding: 100px 30px 30px 30px;
     background-color: none;
     border-radius: 20px;
 }
+
+.style-banner {
+    text-align: center;
+    padding: 20px;
+}
+
+.title-banner {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price-old {
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.heading-banner {
+    color: blue;
+    font-size: 20px;
+}
+
+.small-heading {}
+
+.small-title {
+    display: inline-block;
+    padding: 3px 7px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn.btn-primary-news {
+    background-color: transparent;
+    color: blue;
+    font-size: 15px;
+
+    text-transform: uppercase;
+
+}
+
+.title-news {
+    padding: 30px;
+}
+
+.heading-box {
+    justify-content: space-between;
+
+}
+
+.title-box {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.f-footer {
+    --f-carousel-item: 6;
+    padding: 100px 30px 30px 30px;
+    background-color: none;
+    border-radius: 20px;
+}
+
+footer {
+    line-height: 2;
+
+}
+
+.footer-page {
+    padding: 50px 0;
+}
+
+.text-footer {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.list-group-footer {
+    background-color: transparent;
+    border-color: none;
+    padding-top: 20px;
+}
+
+.line-title {
+    border: 2px solid blue;
+}
+
+.line-title-small {
+    border: 2px solid blue;
+    width: 50%;
+}
+
+.img {
+    width: 150px;
+}
+
+.text-title-footer {
+    padding-top: 15px;
+}
+
+.last-page {
+    background-color: blue;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.returned-chevron {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color: gray;
+    text-align: center;
+  
+}
+
+.fa-arrow-right-long {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.last-text {
+    margin: 0;
+    
+}
+
